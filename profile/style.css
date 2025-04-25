@@ -1,0 +1,58 @@
+body {
+  background: #e03131;
+  margin-top: 20px;
+}
+
+.profile-img {
+  width: 80px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.btn-default {
+  border: 1px solid rgba(24, 28, 33, 0.1);
+  background: none;
+  color: #4E5155;
+}
+
+.btn-outline-primary {
+  border-color: #26B4FF;
+  background: transparent;
+  color: #26B4FF;
+}
+
+.file-input {
+  position: absolute;
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.text-muted {
+  color: #babbbc !important;
+}
+
+.settings-menu .list-group-item {
+  padding: 0.85rem 1.5rem;
+  border-color: rgba(24, 28, 33, 0.03);
+}
+
+.settings-menu .list-group-item.active {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  color: #4e5155;
+  border-color: #ddd;
+}
+
+.btn-facebook {
+  background: #3B5998;
+  color: white;
+  border: none;
+}
+
+.btn-instagram {
+  background: #000;
+  color: white;
+  border: none;
+}

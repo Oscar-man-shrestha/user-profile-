@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="action">
+    <div class="profile" onclick="menuToggle()">
+      <img src="https://i.pinimg.com/474x/b3/0c/39/b30c392c43b465ff22d8f084c06bbee1.jpg" alt="Profile Image">
+    </div>
+    <div class="menu">
+      <h3>User Name <br><span>Student</span></h3>
+      <ul>
+        <li><img src="./images/user.png" alt="User Icon"><a href="#">My profile</a></li>
+        <li><img src="./images/edit.png" alt="Edit Icon"><a href="#">Edit profile</a></li>
+        <li><img src="./images/star.png" alt="Your rating"><a href="#"> Your rating</a></li>
+        <li><img src="./images/bookmark.png" alt="Your watchlist"><a href="#">Your watchlist</a></li>
+        <li><img src="./images/settings.png" alt="Settings Icon"><a href="#">Settings</a></li>
+        <li><img src="./images/question.png" alt="Help Icon"><a href="#">Help</a></li>
+        <li><img src="./images/log-out.png" alt="Logout Icon"><a href="#">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function menuToggle() {
+      const toggleMenu = document.querySelector('.menu');
+      toggleMenu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
+
+
